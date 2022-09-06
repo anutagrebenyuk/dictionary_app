@@ -8,6 +8,7 @@ export default function Dictionary() {
     console.log(response.data[0]);
   }
 
+  //Added dictionary API from dictionaryapi.dev/
   function search(event) {
     event.preventDefault();
 
