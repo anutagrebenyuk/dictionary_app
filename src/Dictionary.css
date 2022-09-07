@@ -1,0 +1,28 @@
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Dictionary input {
+  padding: 10px;
+}
+
+.Dictionary h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.Dictionary .btn-search {
+  border-radius: 8px;
+  background: #bffaf5;
+  border: 1px solid grey;
+
+  transition: all 200ms ease-in-out;
+  background: #c8c2fa5d;
+}
+.Dictionary .btn-search:hover {
+  background: #cac3f7;
+}

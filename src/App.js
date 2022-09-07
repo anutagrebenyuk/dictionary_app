@@ -5,7 +5,8 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App container">
-      <Dictionary />
+      <h1 className="dictionary text-center">DICTIONARY</h1>
+      <Dictionary defaultKeyword="sunrise" />
     </div>
   );
 }

@@ -1,0 +1,18 @@
+.Phonetic a {
+  padding: 10px;
+
+  text-decoration: none;
+}
+.Phonetic button {
+  font-size: 20px;
+  border: 1px solid grey;
+  transition: all 200ms ease-in-out;
+  border-radius: 50%;
+  padding: 20px;
+  line-height: 1;
+  background: #c8c2fa5d;
+}
+
+.Phonetic button:hover {
+  background: #cbc3f7;
+}
