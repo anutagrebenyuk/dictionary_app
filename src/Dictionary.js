@@ -69,7 +69,15 @@ export default function Dictionary(props) {
         <Results results={results} />
         <Photos photos={photos} />
         <p className="text-center text-muted">
-          Coded by Hanna Hrebeniuk and is <a href="">open-sourced </a> on GitHub
+          Coded by Hanna Hrebeniuk and is{" "}
+          <a
+            href="https://github.com/anutagrebenyuk/dictionary_app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced{" "}
+          </a>{" "}
+          on GitHub
         </p>
       </div>
     );
