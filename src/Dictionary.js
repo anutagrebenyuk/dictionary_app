@@ -24,7 +24,7 @@ export default function Dictionary(props) {
 
     let pexelsApiKey =
       "563492ad6f91700001000001620fcb8993224796a613e0376c6851f0";
-    let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=8`;
+    let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsUrl, { headers: headers }).then(handlePexelsResponse);
   }
@@ -70,14 +70,14 @@ export default function Dictionary(props) {
         <Results results={results} />
         <Photos photos={photos} />
         <p className="text-center text-muted">
+          Coded by Hanna Hrebeniuk and hosted on {""}
           <a
             href="https://unique-haupia-5ad83e.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
-            Open-source {""}
+            Netlify
           </a>
-          code by Hanna Hrebeniuk
         </p>
       </div>
     );
