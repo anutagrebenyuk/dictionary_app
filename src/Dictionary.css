@@ -26,3 +26,7 @@
 .Dictionary .btn-search:hover {
   background: #cac3f7;
 }
+
+.hint {
+  font-size: 14px;
+}

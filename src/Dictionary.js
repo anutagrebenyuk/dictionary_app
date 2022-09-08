@@ -64,20 +64,20 @@ export default function Dictionary(props) {
               </div>
             </div>
           </form>
+          <p className="hint text-muted"> i.e. spring, sunset, yoga</p>
         </section>
 
         <Results results={results} />
         <Photos photos={photos} />
         <p className="text-center text-muted">
-          Coded by Hanna Hrebeniuk and is{" "}
           <a
-            href="https://github.com/anutagrebenyuk/dictionary_app"
+            href="https://unique-haupia-5ad83e.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced{" "}
-          </a>{" "}
-          on GitHub
+            Open-source {""}
+          </a>
+          code by Hanna Hrebeniuk
         </p>
       </div>
     );
